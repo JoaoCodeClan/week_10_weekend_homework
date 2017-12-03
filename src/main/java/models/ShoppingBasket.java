@@ -41,14 +41,18 @@ public class ShoppingBasket {
         contentShoppingBasket.clear();
     }
 
-//    public double getTotal() {
-//        int total = 0;
-//        for(Sellable item:contentShoppingBasket){
-//            if(item instanceof BuyOneGetOneFree ){
-//                total +=( item.getPrice() / 2);
-//            }
-//            total += item.getPrice();
-//        }
-//        return total;
-//    }
+    public double getTotal() {
+        double total = 0;
+        for (Sellable item : contentShoppingBasket) {
+            if (item instanceof BuyOneGetOneFree) {
+                total += (item.getPrice()/2);
+            } else {
+                total += item.getPrice();
+
+            }
+
+        }
+        return total;
+    }
+
 }

@@ -81,17 +81,17 @@ public class ShoppingBasketTest {
         assertEquals(0, actual1);
     }
 
-//    @Test
-//
-//    public void canTotalForBasket() {
-//        basket.addItem(item1);
-//        basket.addItem(item2);
-//        basket.addItem(item3);
-//        int actual = basket.getAmountItems();
-//        assertEquals(3, actual);
-//        double actual1 = basket.getTotal();
-//        assertEquals(10.5, actual1, 0.01);
-//    }
+    @Test
+
+    public void canTotalForBasket() {
+        basket.addItem(item1);
+        basket.addItem(item2);
+        basket.addItem(item3);
+        int actual = basket.getAmountItems();
+        assertEquals(4, actual);
+        double actual1 = basket.getTotal();
+        assertEquals(10.5, actual1, 0.01);
+    }
 
 
 }
