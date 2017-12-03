@@ -12,4 +12,7 @@ public class ShoppingBasket {
     }
 
 
+    public int getAmountItems() {
+        return contentShoppingBasket.size();
+    }
 }
