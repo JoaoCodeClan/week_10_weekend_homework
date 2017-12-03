@@ -10,4 +10,13 @@ public class Client {
 
     }
 
+    public boolean checkForLoyaltyCard() {
+        if(this.loyaltyCard == LoyaltyCard.YES){
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
 }
