@@ -51,4 +51,14 @@ public class ClientTest {
         assertEquals(3, actual);
 
     }
+
+    @Test
+
+    public void clientCanRemoveItemsFromBasket(){
+        client.buyItem(item1);
+        client.buyItem(item3);
+        client.putBackItem(item1);
+        int actual = client.countItemsInBasket();
+        assertEquals(2, actual);
+    }
 }

@@ -29,4 +29,8 @@ public class Client {
     public void buyItem(Sellable item) {
         shoppingBasket.addItem(item);
     }
+
+    public void putBackItem(Sellable item) {
+        shoppingBasket.removeItem(item);
+    }
 }
