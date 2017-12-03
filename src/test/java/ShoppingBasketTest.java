@@ -54,4 +54,18 @@ public class ShoppingBasketTest {
 
     }
 
+    @Test
+
+    public void canRemoveItemFromBasket(){
+        basket.addItem(item1);
+        basket.addItem(item2);
+        int actual = basket.getAmountItems();
+        assertEquals(2, actual);
+        basket.removeItem(item1);
+        int actual1 = basket.getAmountItems();
+        assertEquals(1, actual1);
+        boolean actual2= basket.findItem(item1);
+        assertFalse(actual2);
+    }
+
 }

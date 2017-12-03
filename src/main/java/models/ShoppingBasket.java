@@ -23,4 +23,8 @@ public class ShoppingBasket {
     public boolean findItem(Sellable item) {
         return contentShoppingBasket.contains(item);
     }
+
+    public void removeItem(Sellable item) {
+        contentShoppingBasket.remove(item);
+    }
 }
