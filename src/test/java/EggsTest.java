@@ -44,5 +44,11 @@ public class EggsTest {
         assertEquals(4.0, eggs.getPrice(), 0.01);
 }
 
+@Test
+
+    public void canGetType(){
+        assertEquals("Free Range", eggs.getType());
+}
+
 
 }

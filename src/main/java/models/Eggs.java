@@ -8,4 +8,7 @@ public class Eggs extends Item {
         this.type = type;
     }
 
+    public String getType() {
+        return this.type;
+    }
 }
