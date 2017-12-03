@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54d72988-a5d8-4600-a7dd-148605731f90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/Eggs.java" afterPath="$PROJECT_DIR$/src/main/java/models/Eggs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/Item.java" afterPath="$PROJECT_DIR$/src/main/java/models/Item.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EggsTest.java" afterPath="$PROJECT_DIR$/src/test/java/EggsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,22 +33,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Eggs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Eggs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Eggs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +108,8 @@
       <file leaf-file-name="EggsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EggsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -437,8 +451,9 @@
         <option value="$PROJECT_DIR$/src/main/java/models/ShoppingBasket.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Client.java" />
         <option value="$PROJECT_DIR$/src/test/java/ItemTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Item.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EggsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Eggs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Item.java" />
       </list>
     </option>
   </component>
@@ -736,28 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EggsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/Sellable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -794,11 +791,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EggsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Eggs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

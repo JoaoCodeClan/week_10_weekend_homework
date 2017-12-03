@@ -12,4 +12,20 @@ public abstract class Item implements Sellable {
     }
 
 
+    public String getName(){
+        return this.name;
+    }
+
+    public void setName(String newName){
+        this.name = newName;
+    }
+
+    public double getPrice(){
+        return this.price;
+    }
+
+    public void setprice( double newPrice){
+        this.price = newPrice;
+    }
+
 }

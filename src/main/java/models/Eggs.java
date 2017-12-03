@@ -8,5 +8,7 @@ public class Eggs extends Item {
         this.type = type;
     }
 
-    
+    public double getprice(){
+       return price;
+    }
 }
