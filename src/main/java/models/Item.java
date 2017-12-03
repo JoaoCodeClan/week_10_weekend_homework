@@ -24,7 +24,7 @@ public abstract class Item implements Sellable {
         return this.price;
     }
 
-    public void setprice( double newPrice){
+    public void setPrice( double newPrice){
         this.price = newPrice;
     }
 

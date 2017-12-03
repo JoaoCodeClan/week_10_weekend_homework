@@ -36,4 +36,13 @@ public class EggsTest {
         assertEquals(2.0, eggs.getPrice(), 0.01);
 }
 
+
+@Test
+
+    public void canSetPrice(){
+        eggs.setPrice(4.0);
+        assertEquals(4.0, eggs.getPrice(), 0.01);
+}
+
+
 }
