@@ -19,4 +19,8 @@ public class ShoppingBasket {
     public void addItem(Sellable item) {
         contentShoppingBasket.add(item);
     }
+
+    public boolean findItem(Sellable item) {
+        return contentShoppingBasket.contains(item);
+    }
 }

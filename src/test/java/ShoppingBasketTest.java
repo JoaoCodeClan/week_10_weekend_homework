@@ -3,6 +3,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class ShoppingBasketTest {
 
@@ -32,6 +34,24 @@ public class ShoppingBasketTest {
     public void canAddItem(){
         basket.addItem(item1);
         assertEquals(1, basket.getAmountItems());
+    }
+
+    @Test
+
+    public void canFindItemInBasket(){
+        basket.addItem(item1);
+        boolean actual = basket.findItem(item1);
+        assertTrue(actual);
+
+    }
+
+    @Test
+
+    public void cannotFindItemInBasket(){
+        basket.addItem(item1);
+        boolean actual = basket.findItem(item2);
+        assertFalse(actual);
+
     }
 
 }
