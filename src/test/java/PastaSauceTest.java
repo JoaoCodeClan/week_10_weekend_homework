@@ -22,4 +22,10 @@ public class PastaSauceTest {
     public void canGetFlavour(){
         assertEquals("BitterSweet",sauce.getFlavour());
     }
+
+    @Test
+    public void canSetFlavour(){
+        sauce.setFlavour("Salty");
+        assertEquals("Salty", sauce.getFlavour());
+    }
 }

@@ -14,4 +14,8 @@ public class PastaSauce extends Item {
     public String getFlavour() {
         return this.flavour;
     }
+
+    public void setFlavour(String newFlavour) {
+        this.flavour = newFlavour;
+    }
 }
