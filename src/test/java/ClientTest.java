@@ -30,4 +30,13 @@ public class ClientTest {
         boolean actual1 = client1.checkForLoyaltyCard();
         assertFalse(actual1);
     }
+
+    @Test
+    public void clientStartsWithEmptybasket(){
+        assertEquals(0, client.countItemsInBasket());
+    }
+
+    @Test
+
+    public
 }

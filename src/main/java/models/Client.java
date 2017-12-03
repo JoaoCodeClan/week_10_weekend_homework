@@ -19,4 +19,8 @@ public class Client {
         }
 
     }
+
+    public int countItemsInBasket() {
+        return this.shoppingBasket.getAmountItems();
+    }
 }
