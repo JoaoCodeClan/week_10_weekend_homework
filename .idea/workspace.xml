@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d72988-a5d8-4600-a7dd-148605731f90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/Client.java" afterPath="$PROJECT_DIR$/src/main/java/models/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/ClientTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/CheckOut.java" afterPath="$PROJECT_DIR$/src/main/java/models/CheckOut.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CheckOutTest.java" afterPath="$PROJECT_DIR$/src/test/java/CheckOutTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -141,7 +141,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -160,8 +160,8 @@
       <file leaf-file-name="CheckOut.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/CheckOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="278">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="e#104#105#0" expanded="true" />
                 <element signature="e#140#141#0" expanded="true" />
@@ -170,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckOutTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckOutTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CheckOutTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -503,10 +503,10 @@
         <option value="$PROJECT_DIR$/src/main/java/models/PastaSauce.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/ShoppingBasket.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/CheckOut.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CheckOutTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/CheckOut.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CheckOutTest.java" />
       </list>
     </option>
   </component>
@@ -610,15 +610,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClientTest.canSetClientBill">
-    <configuration name="ClientTest.canGetClientBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard">
+    <configuration name="CheckOutTest.canGetTotalAndSetBillForClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
-      <option name="METHOD_NAME" value="canGetClientBill" />
+      <option name="MAIN_CLASS_NAME" value="CheckOutTest" />
+      <option name="METHOD_NAME" value="canGetTotalAndSetBillForClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckOutTest" />
+      <option name="METHOD_NAME" value="canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckOutTest" />
+      <option name="METHOD_NAME" value="canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesOver20AndNoLoyaltyCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckOutTest" />
+      <option name="METHOD_NAME" value="canGetTotalAndSetBillForClientWithExpensesOver20AndNoLoyaltyCard" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -639,66 +699,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClientTest" />
       <option name="METHOD_NAME" value="canSetClientBill" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ClientTest.clientCanAddItemsToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
-      <option name="METHOD_NAME" value="clientCanAddItemsToBasket" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ClientTest.clientCanGetTotalOfBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
-      <option name="METHOD_NAME" value="clientCanGetTotalOfBasket" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ClientTest.clientCanRemoveItemsFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="com_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
-      <option name="METHOD_NAME" value="clientCanRemoveItemsFromBasket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -793,19 +793,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ClientTest.clientCanAddItemsToBasket" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ClientTest.clientCanRemoveItemsFromBasket" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ClientTest.clientCanGetTotalOfBasket" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ClientTest.canGetClientBill" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ClientTest.canSetClientBill" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ClientTest.canSetClientBill" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClient" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClientWithExpensesOver20AndNoLoyaltyCard" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ClientTest.canSetClientBill" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ClientTest.canGetClientBill" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ClientTest.clientCanGetTotalOfBasket" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ClientTest.clientCanRemoveItemsFromBasket" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ClientTest.clientCanAddItemsToBasket" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClientWithExpensesOver20AndNoLoyaltyCard" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CheckOutTest.canGetTotalAndSetBillForClient" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ClientTest.canSetClientBill" />
       </list>
     </recent_temporary>
   </component>
@@ -823,35 +823,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientTest_canCheckIfClientHasLoyaltyCard - 2017.12.03 at 18h 42m 38s.xml">
-      <configuration name="ClientTest.canCheckIfClientHasLoyaltyCard" configurationId="JUnit" />
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClient - 2017.12.03 at 19h 31m 19s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_canCheckIfClientHasLoyaltyCard - 2017.12.03 at 18h 43m 23s.xml">
-      <configuration name="ClientTest.canCheckIfClientHasLoyaltyCard" configurationId="JUnit" />
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClient - 2017.12.03 at 19h 32m 58s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_canCheckIfClientHasLoyaltyCard - 2017.12.03 at 18h 44m 03s.xml">
-      <configuration name="ClientTest.canCheckIfClientHasLoyaltyCard" configurationId="JUnit" />
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard - 2017.12.03 at 19h 37m 27s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientTest_canGetClientBill - 2017.12.03 at 19h 08m 05s.xml">
-      <configuration name="ClientTest.canGetClientBill" configurationId="JUnit" />
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard - 2017.12.03 at 19h 45m 36s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard - 2017.12.03 at 19h 46m 05s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithLoyaltyCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard - 2017.12.03 at 19h 46m 55s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard - 2017.12.03 at 19h 47m 18s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesBellow20AndWithoutLoyaltyCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckOutTest_canGetTotalAndSetBillForClientWithExpensesOver20AndNoLoyaltyCard - 2017.12.03 at 19h 35m 15s.xml">
+      <configuration name="CheckOutTest.canGetTotalAndSetBillForClientWithExpensesOver20AndNoLoyaltyCard" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ClientTest_canGetClientBill - 2017.12.03 at 19h 08m 45s.xml">
       <configuration name="ClientTest.canGetClientBill" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ClientTest_canSetClientBill - 2017.12.03 at 19h 10m 10s.xml">
       <configuration name="ClientTest.canSetClientBill" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest_clientCanAddItemsToBasket - 2017.12.03 at 18h 50m 11s.xml">
-      <configuration name="ClientTest.clientCanAddItemsToBasket" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest_clientCanGetTotalOfBasket - 2017.12.03 at 18h 55m 45s.xml">
-      <configuration name="ClientTest.clientCanGetTotalOfBasket" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest_clientCanRemoveItemsFromBasket - 2017.12.03 at 18h 52m 46s.xml">
-      <configuration name="ClientTest.clientCanRemoveItemsFromBasket" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClientTest_clientStartsWithEmptybasket - 2017.12.03 at 18h 46m 22s.xml">
-      <configuration name="ClientTest.clientStartsWithEmptybasket" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1053,27 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/CheckOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckOutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -1105,6 +1084,27 @@
             <element signature="e#986#987#0" expanded="true" />
             <element signature="e#1033#1034#0" expanded="true" />
             <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/CheckOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
