@@ -7,5 +7,5 @@ public class CheckOut {
     public CheckOut(Client client){
         this.client = client;
     }
-    
+
 }
