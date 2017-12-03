@@ -10,5 +10,8 @@ public class PastaSauce extends Item {
         this.flavour= flavour;
 
     }
-    
+
+    public String getFlavour() {
+        return this.flavour;
+    }
 }

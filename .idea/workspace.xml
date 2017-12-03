@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54d72988-a5d8-4600-a7dd-148605731f90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/PastaSauce.java" afterPath="$PROJECT_DIR$/src/main/java/models/PastaSauce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PastaSauceTest.java" afterPath="$PROJECT_DIR$/src/test/java/PastaSauceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -80,12 +81,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PastaSauce.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PastaSauce.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/PastaSauce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,12 +110,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PastaSauceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PastaSauceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PastaSauceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -473,6 +483,7 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Eggs.java" />
         <option value="$PROJECT_DIR$/src/test/java/Breadtest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Bread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PastaSauceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/PastaSauce.java" />
       </list>
     </option>
@@ -577,7 +588,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Breadtest.canSetSize">
+  <component name="RunManager" selected="JUnit.PastaSauceTest.canGetFlavour">
     <configuration name="Breadtest.canGetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -638,14 +649,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="EggsTest.canSetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EggsTest.canSetType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EggsTest" />
-      <option name="METHOD_NAME" value="canSetPrice" />
+      <option name="METHOD_NAME" value="canSetType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -658,14 +669,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="EggsTest.canSetType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PastaSauceTest.canGetFlavour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EggsTest" />
-      <option name="METHOD_NAME" value="canSetType" />
+      <option name="MAIN_CLASS_NAME" value="PastaSauceTest" />
+      <option name="METHOD_NAME" value="canGetFlavour" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -760,19 +771,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetPrice" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Breadtest.canSetSize" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Breadtest.canSetSize" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PastaSauceTest.canGetFlavour" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Breadtest.canSetSize" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetPrice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PastaSauceTest.canGetFlavour" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Breadtest.canSetSize" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
       </list>
     </recent_temporary>
   </component>
@@ -814,6 +825,9 @@
     <history-entry file="EggsTest_canSetname - 2017.12.03 at 17h 09m 40s.xml">
       <configuration name="EggsTest.canSetname" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PastaSauceTest_canGetFlavour - 2017.12.03 at 17h 31m 29s.xml">
+      <configuration name="PastaSauceTest.canGetFlavour" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
@@ -837,7 +851,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -922,14 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PastaSauceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1005,9 +1011,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/PastaSauce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PastaSauceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
