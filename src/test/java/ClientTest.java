@@ -47,6 +47,13 @@ public class ClientTest {
         assertEquals(0, client.getBill(), 0.01);
     }
 
+    @Test
+    public void canSetClientBill(){
+        client.setBill(5.0);
+        assertEquals(5.0, client.getBill(), 0.01);
+    }
+
+
 
     @Test
 

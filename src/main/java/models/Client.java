@@ -43,4 +43,8 @@ public class Client {
     public double getBill() {
         return this.bill;
     }
+
+    public void setBill(double newBill) {
+        this.bill = newBill;
+    }
 }
