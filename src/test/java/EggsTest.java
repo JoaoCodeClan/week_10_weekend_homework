@@ -22,4 +22,11 @@ public class EggsTest {
     public void canGetName(){
         assertEquals("Margaret's", eggs.getName());
 }
+
+@Test
+
+    public void canSetname(){
+        eggs.setName("Henrietta's");
+        assertEquals("Henrietta's", eggs.getName());
+}
 }
