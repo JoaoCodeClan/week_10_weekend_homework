@@ -11,4 +11,8 @@ public class Eggs extends Item {
     public String getType() {
         return this.type;
     }
+
+    public void setType(String newType) {
+        this.type = newType;
+    }
 }

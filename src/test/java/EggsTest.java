@@ -51,4 +51,11 @@ public class EggsTest {
 }
 
 
+@Test
+
+    public void canSetType(){
+     eggs.setType("Mixed");
+     assertEquals("Mixed", eggs.getType());
+}
+
 }
