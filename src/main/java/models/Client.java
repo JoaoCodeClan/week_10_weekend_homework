@@ -5,10 +5,12 @@ import Interfaces.Sellable;
 public class Client {
     private LoyaltyCard loyaltyCard;
     private ShoppingBasket shoppingBasket;
+    private double bill;
 
     public Client(LoyaltyCard loyaltyCard){
         this.loyaltyCard= loyaltyCard;
         this.shoppingBasket= new ShoppingBasket();
+        this.bill=0;
 
     }
 
