@@ -1,13 +1,13 @@
 import models.Item;
 import org.junit.Before;
 
-public class ItemTest {
+public class EggsTest {
 
     Item item;
 
     @Before
 
-    public before(){
+    public EggsTest(){
 
     }
 }
