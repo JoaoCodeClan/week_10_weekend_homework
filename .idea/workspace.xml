@@ -69,11 +69,13 @@
       <file leaf-file-name="Bread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Bread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +94,8 @@
       <file leaf-file-name="Breadtest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Breadtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="218">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#198#199#0" expanded="true" />
@@ -575,7 +577,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Breadtest.canGetSize">
+  <component name="RunManager" selected="JUnit.Breadtest.canSetSize">
     <configuration name="Breadtest.canGetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -596,14 +598,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="EggsTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Breadtest.canSetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EggsTest" />
-      <option name="METHOD_NAME" value="canGetPrice" />
+      <option name="MAIN_CLASS_NAME" value="Breadtest" />
+      <option name="METHOD_NAME" value="canSetSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -758,19 +760,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetPrice" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetPrice" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetPrice" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Breadtest.canSetSize" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetPrice" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetPrice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Breadtest.canSetSize" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Breadtest.canGetSize" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetType" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetType" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -790,6 +792,9 @@
   <component name="TestHistory">
     <history-entry file="Breadtest_canGetSize - 2017.12.03 at 17h 22m 56s.xml">
       <configuration name="Breadtest.canGetSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Breadtest_canSetSize - 2017.12.03 at 17h 24m 41s.xml">
+      <configuration name="Breadtest.canSetSize" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EggsTest_canGetName - 2017.12.03 at 17h 07m 44s.xml">
       <configuration name="EggsTest.canGetName" configurationId="JUnit" />
@@ -981,19 +986,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Bread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="225">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="e#224#225#0" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Breadtest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="218">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />

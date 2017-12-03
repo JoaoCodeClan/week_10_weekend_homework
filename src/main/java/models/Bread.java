@@ -11,4 +11,8 @@ public class Bread extends Item {
     public String getSize() {
         return this.size;
     }
+
+    public void setSize(String newSize) {
+        this.size = newSize;
+    }
 }

@@ -24,4 +24,11 @@ public class Breadtest {
         assertEquals("medium", bread.getSize());
     }
 
+    @Test
+
+    public void canSetSize(){
+        bread.setSize("huge");
+        assertEquals("huge", bread.getSize());
+    }
+
 }
