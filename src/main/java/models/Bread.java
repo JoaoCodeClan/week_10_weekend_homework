@@ -7,4 +7,8 @@ public class Bread extends Item {
         super(name, price);
         this.size= size;
     }
+
+    public String getSize() {
+        return this.size;
+    }
 }
