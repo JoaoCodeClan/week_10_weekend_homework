@@ -68,4 +68,16 @@ public class ShoppingBasketTest {
         assertFalse(actual2);
     }
 
+    @Test
+
+    public void canEmptyBasket(){
+        basket.addItem(item1);
+        basket.addItem(item2);
+        int actual = basket.getAmountItems();
+        assertEquals(2, actual);
+        basket.emptyBasket();
+        int actual1= basket.getAmountItems();
+        assertEquals(0, actual1);
+    }
+
 }

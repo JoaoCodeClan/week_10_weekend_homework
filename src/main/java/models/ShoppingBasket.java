@@ -27,4 +27,8 @@ public class ShoppingBasket {
     public void removeItem(Sellable item) {
         contentShoppingBasket.remove(item);
     }
+
+    public void emptyBasket() {
+        contentShoppingBasket.clear();
+    }
 }
