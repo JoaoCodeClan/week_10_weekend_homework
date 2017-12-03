@@ -33,4 +33,8 @@ public class Client {
     public void putBackItem(Sellable item) {
         shoppingBasket.removeItem(item);
     }
+
+    public double getBasketTotal() {
+        return shoppingBasket.getTotal();
+    }
 }

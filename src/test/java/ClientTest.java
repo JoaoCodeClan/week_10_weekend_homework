@@ -61,4 +61,12 @@ public class ClientTest {
         int actual = client.countItemsInBasket();
         assertEquals(2, actual);
     }
+
+    @Test
+    public void clientCanGetTotalOfBasket(){
+        client.buyItem(item1);
+        client.buyItem(item3);
+        double actual = client.getBasketTotal();
+        assertEquals(7.0, actual, 0.01);
+    }
 }
