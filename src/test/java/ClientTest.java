@@ -43,6 +43,12 @@ public class ClientTest {
     }
 
     @Test
+    public void canGetClientBill(){
+        assertEquals(0, client.getBill(), 0.01);
+    }
+
+
+    @Test
 
     public void clientCanAddItemsToBasket(){
         client.buyItem(item1);

@@ -39,4 +39,8 @@ public class Client {
     public double getBasketTotal() {
         return shoppingBasket.getTotal();
     }
+
+    public double getBill() {
+        return this.bill;
+    }
 }
