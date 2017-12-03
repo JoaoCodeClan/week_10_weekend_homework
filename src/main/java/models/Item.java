@@ -1,9 +1,13 @@
 package models;
 
-public abstract class Item {
+import Interfaces.Sellable;
+
+public abstract class Item implements Sellable {
+    private String name;
     private double price;
 
-    public Item( double price){
+    public Item( String name, double price){
+        this.name = name;
         this.price = price;
     }
 
