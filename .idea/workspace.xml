@@ -102,12 +102,14 @@
       <file leaf-file-name="EggsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EggsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state relative-caret-position="293">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -553,7 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EggsTest.canSetname">
+  <component name="RunManager" selected="JUnit.EggsTest.canGetPrice">
     <configuration name="EggsTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="com_test" />
@@ -562,6 +564,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EggsTest" />
       <option name="METHOD_NAME" value="canGetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="EggsTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="com_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EggsTest" />
+      <option name="METHOD_NAME" value="canGetPrice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -675,14 +697,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetName" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetname" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetPrice" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetname" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetName" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetPrice" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EggsTest.canSetname" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EggsTest.canGetName" />
       </list>
     </recent_temporary>
   </component>
@@ -702,6 +726,9 @@
   <component name="TestHistory">
     <history-entry file="EggsTest_canGetName - 2017.12.03 at 17h 07m 44s.xml">
       <configuration name="EggsTest.canGetName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EggsTest_canGetPrice - 2017.12.03 at 17h 10m 45s.xml">
+      <configuration name="EggsTest.canGetPrice" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EggsTest_canSetname - 2017.12.03 at 17h 09m 40s.xml">
       <configuration name="EggsTest.canSetname" configurationId="JUnit" />
@@ -872,12 +899,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EggsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="293">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
           </folding>
         </state>
       </provider>

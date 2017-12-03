@@ -29,4 +29,11 @@ public class EggsTest {
         eggs.setName("Henrietta's");
         assertEquals("Henrietta's", eggs.getName());
 }
+
+@Test
+
+    public void canGetPrice(){
+        assertEquals(2.0, eggs.getPrice(), 0.01);
+}
+
 }
