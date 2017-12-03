@@ -15,4 +15,8 @@ public class ShoppingBasket {
     public int getAmountItems() {
         return contentShoppingBasket.size();
     }
+
+    public void addItem(Sellable item) {
+        contentShoppingBasket.add(item);
+    }
 }
