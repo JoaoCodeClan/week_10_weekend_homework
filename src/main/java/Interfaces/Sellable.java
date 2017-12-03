@@ -1,5 +1,5 @@
 package Interfaces;
 
 public interface Sellable {
-    public double getPrice(); 
+    public double getPrice();
 }
