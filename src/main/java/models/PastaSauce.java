@@ -1,6 +1,8 @@
 package models;
 
-public class PastaSauce extends Item {
+import Interfaces.BuyOneGetOneFree;
+
+public class PastaSauce extends Item implements BuyOneGetOneFree {
 
     private String flavour;
 

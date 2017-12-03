@@ -1,6 +1,6 @@
 package Interfaces;
 
-public interface buyOneGetOneFree {
+public interface BuyOneGetOneFree {
     public double getPrice();
 
 }
