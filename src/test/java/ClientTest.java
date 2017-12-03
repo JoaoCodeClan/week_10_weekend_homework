@@ -1,5 +1,4 @@
-import models.Client;
-import models.LoyaltyCard;
+import models.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,6 +10,10 @@ public class ClientTest {
 
     Client client ;
     Client client1 ;
+    Eggs item1;
+    Bread item2;
+    PastaSauce item3;
+
 
 
     @Before
@@ -19,6 +22,9 @@ public class ClientTest {
 
         client= new Client(LoyaltyCard.YES);
         client1= new Client(LoyaltyCard.NO);
+        item1= new Eggs("Margaret's", 2.0, "Free Range");
+        item2= new Bread("Bloomer", 3.5, "medium");
+        item3= new PastaSauce("Toni's", 5.0, "BitterSweet");
     }
 
 
@@ -38,5 +44,11 @@ public class ClientTest {
 
     @Test
 
-    public
+    public void clientCanAddItemsToBasket(){
+        client.buyItem(item1);
+        client.buyItem(item3);
+        int actual = client.countItemsInBasket();
+        assertEquals(3, actual);
+
+    }
 }

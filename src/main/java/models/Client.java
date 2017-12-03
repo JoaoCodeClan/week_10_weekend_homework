@@ -1,5 +1,7 @@
 package models;
 
+import Interfaces.Sellable;
+
 public class Client {
     private LoyaltyCard loyaltyCard;
     private ShoppingBasket shoppingBasket;
@@ -22,5 +24,9 @@ public class Client {
 
     public int countItemsInBasket() {
         return this.shoppingBasket.getAmountItems();
+    }
+
+    public void buyItem(Sellable item) {
+        shoppingBasket.addItem(item);
     }
 }
